@@ -5,25 +5,21 @@
 
 // Møde skabelon i HTML format med Neue Hass Grotesk font
 const MEETING_TEMPLATE = `
-<div style="font-family: 'Neue Haas Grotesk', Arial, sans-serif;">
-<p><strong>Formål med mødet</strong></p>
-<p>Kort beskrivelse af, hvorfor vi mødes, og hvad vi skal opnå.</p>
+<div style="font-family: Arial, sans-serif; color: #333333;">
+<p><strong>Meeting Purpose</strong></p>
+<p>Brief description of why we are meeting and what we aim to achieve.</p>
 <br>
-
-<p><strong>Dagsorden/emner</strong></p>
-<p>Liste over de punkter, der skal drøftes (fx status eller beslutninger)</p>
+<p><strong>Agenda</strong></p>
+<p>1.&nbsp;<br>2.&nbsp;<br>3.&nbsp;</p>
 <br>
-
-<p><strong>Roller og ansvar</strong></p>
-<p>Hvem er mødeleder og hvem tager referat (hvis relevant).</p>
+<p><strong>Roles</strong></p>
+<p>Meeting lead:&nbsp;&nbsp;&nbsp; Notes:&nbsp;</p>
 <br>
-
-<p><strong>Beslutninger og næste skridt</strong></p>
-<p>Afslut med at opsummere beslutninger og aftale opfølgning.</p>
+<p><strong>Decisions and Next Steps</strong></p>
+<p>To be completed during the meeting.</p>
 <br>
-
-<p><strong>Evt.</strong></p>
-<p>Tid til spørgsmål eller andre punkter.</p>
+<p><strong>Other Business</strong></p>
+<p>Questions or items raised at the meeting.</p>
 </div>
 `;
 
